@@ -1,0 +1,9 @@
+to_check = ("madam", "cat", "level", "tar")
+def is_palindrome(text):
+  return text == text[::-1]
+
+for text in to_check:
+  if is_palindrome(text) == True:
+    print(f"{text} is a palindrome")
+  else:
+    print(f"{text} is not a palindrome")
